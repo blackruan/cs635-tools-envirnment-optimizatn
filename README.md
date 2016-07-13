@@ -3,4 +3,4 @@ Homeworks in CS635 Tools and Environments for Optimization (Spring 2015), by Pro
 
 Course website: http://pages.cs.wisc.edu/~ferris/cs635.html.
 
-This course is designed to teach students about "optimization in practice". And the homeworks are about building practical models, which are done by programming with GAMS. Check out the [GAMS Home Page](https://www.gams.com/) if interested in. 
+This course is designed to teach students about "optimization in practice". And the homeworks are about building practical models, which are done by programming with GAMS. Check out the [GAMS Home Page](https://www.gams.com/) for more details. 
