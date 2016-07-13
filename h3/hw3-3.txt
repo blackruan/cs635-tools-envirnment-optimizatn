@@ -1,0 +1,2 @@
+Problem 3.2
+No, it cannot be formulated as a linear program under the conditions of problem 3.2. Because for the profit function, it may decline when the quantity of milk from region B is in the range of 0 to 700 but increase when the quantity is greater than 700. It is not convex which violates the basic assumption of LP: convexity.

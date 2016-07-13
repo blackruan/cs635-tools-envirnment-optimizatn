@@ -1,0 +1,42 @@
+--- Job hw7-4 Start 03/26/15 22:54:26 24.4.1 r50296 DEX-DEG x86 64bit/MacOS X
+GAMS 24.4.1   Copyright (C) 1987-2014 GAMS Development. All rights reserved
+Licensee: CS 635 Course License                          G150123/0001AS-GEN
+          Prof. Ferris, UW-Madison, Spring 2015                      DC2937
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- hw7-4.gms(1) 2 Mb
+--- .traffic.dat(33) 3 Mb
+--- hw7-4.gms(64) 3 Mb
+--- Starting execution: elapsed 0:00:00.002
+--- hw7-4.gms(95) 82 Mb
+--- Generating MIP model prob4
+--- hw7-4.gms(97) 85 Mb
+---   9,453 rows  9,941 columns  34,791 non-zeroes
+---   2,982 discrete-columns
+--- Executing GUROBI: elapsed 0:00:00.295
+
+Gurobi           24.4.1 r50296 Released Dec 20, 2014 DEG x86 64bit/MacOS X    
+
+Gurobi full license.
+Gurobi library version 6.0.0
+Space for names approximately 0.49 Mb
+Use option 'names no' to turn use of names off
+Starting Gurobi...
+MIP status(2): Model was solved to optimality (subject to tolerances).
+
+Solving fixed MIP.
+Fixed MIP status(2): Model was solved to optimality (subject to tolerances).
+
+MIP   Solution:        487.614775    (971761 iterations, 29813 nodes)
+Final Solve:           487.614767    (897 iterations)
+
+Best possible:         477.868299
+Absolute gap:            9.746468
+Relative gap:            0.019988
+
+--- Restarting execution
+--- hw7-4.gms(97) 81 Mb
+--- Reading solution for model prob4
+--- hw7-4.gms(97) 81 Mb
+*** Status: Normal completion
+--- Job hw7-4.gms Stop 03/26/15 23:07:46 elapsed 0:13:20.254

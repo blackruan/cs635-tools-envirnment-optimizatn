@@ -1,0 +1,9 @@
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE              175.0000
+
+---- VAR x  amount of each type of wands to produce
+
+              LOWER     LEVEL     UPPER    MARGINAL
+
+Hufflepuff      .      125.000     +INF       .         
+Gryffindor      .       25.000    60.000      .         

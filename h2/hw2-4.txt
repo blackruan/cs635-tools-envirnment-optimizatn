@@ -1,0 +1,41 @@
+$setglobal NUM_WANDS 1000
+$setglobal NUM_COMPONENTS 100
+$setglobal DENSITY_CONTROL 0.05
+
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE          1154533.9992
+
+	Resource usage
+cbc	 0.009         
+conopt   0.753               
+cplex    0.416
+gurobi	 0.010
+ipopt    0.998 
+lindo    0.109
+minos    0.114
+mosek    0.237
+snopt    0.103
+xpress   0.188
+
+
+Change NUM_WANDS & NUM_COMPONENTS for experiment
+$setglobal NUM_WANDS 2000
+$setglobal NUM_COMPONENTS 200
+$setglobal DENSITY_CONTROL 0.05
+
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE          1369175.2097
+
+	Resource usage
+cbc	 0.066        
+conopt   8.092               
+cplex    0.072
+gurobi	 0.080
+ipopt    0.884 
+lindo    0.805
+minos    0.331
+mosek    0.359
+snopt    0.400
+xpress   0.143
+
+From the results of the experiment, we find out that conopt solver takes the largest resource usage.

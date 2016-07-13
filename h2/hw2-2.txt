@@ -1,0 +1,21 @@
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE           641725.3521
+
+---- VAR y  amount of transistors used to process by each method
+
+            LOWER     LEVEL     UPPER    MARGINAL
+
+method_1      .    10563.380     +INF       .         
+method_2      .         .        +INF     16.281      
+
+---- VAR z  amount of transistors used to refire
+
+             LOWER     LEVEL     UPPER    MARGINAL
+
+defective      .     3169.014     +INF       .         
+grade_1        .     1373.239     +INF       .         
+grade_2        .         .        +INF    129.842      
+grade_3        .         .        +INF     25.000          
+
+
+Thus, to minimize the total cost, we need to produce 10563.380 transistors using method 1 and 0 transistors using method 2. Within these transistors, we need to refire 3169.014 defective ones from them and 1373.239 grade_1 ones.

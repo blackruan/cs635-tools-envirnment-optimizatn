@@ -1,0 +1,48 @@
+1.1
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE         98000000.0000
+
+---- VAR x  amount of each kind of advertisement
+
+            LOWER     LEVEL     UPPER    MARGINAL
+
+TV          10.000    10.000     +INF  -2.000E+5      
+Magazine      .       80.000     +INF       .         
+
+
+1.2
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE         92000000.0000
+
+---- VAR x  amount of each kind of advertisement
+
+            LOWER     LEVEL     UPPER    MARGINAL
+
+TV          10.000    40.000     +INF       .         
+Magazine      .       20.000     +INF       .         
+
+
+1.3
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE        118000000.0000
+
+---- VAR x  amount of each kind of advertisement
+
+            LOWER     LEVEL     UPPER    MARGINAL
+
+TV          10.000    10.000     +INF  -7.000E+5      
+Magazine      .         .        +INF  -2.500E+5      
+Radio         .      400.000     +INF       .         
+
+
+1.4
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE        100194285.7143
+      
+---- VAR x  amount of each kind of advertisement
+
+            LOWER     LEVEL     UPPER    MARGINAL
+
+TV          10.000    29.029     +INF       .         
+Magazine      .       17.943     +INF       .         
+Radio         .      120.000     +INF       .         
